@@ -1,0 +1,39 @@
+.calendar{
+    width: 400px;
+    background-color: aliceblue;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6bbcf2;
+    color: #333;
+    padding: 5px;
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button img {
+    background-color: #f2f2f2;
+    width: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #c3d00b;
+}
+
+select {
+    font-size: 18px;
+    padding: 0px 8px;
+    border: 1px solid #3498db;
+    border-radius:4px ;
+    margin:  0 10px;
+    
+}

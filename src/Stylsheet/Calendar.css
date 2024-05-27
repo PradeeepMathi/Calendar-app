@@ -37,3 +37,14 @@ select {
     margin:  0 10px;
     
 }
+
+.daysOfWeek{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #3498db;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
